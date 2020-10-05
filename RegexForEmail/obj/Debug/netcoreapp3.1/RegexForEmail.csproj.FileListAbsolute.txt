@@ -1,0 +1,13 @@
+C:\Users\saiku\source\repos\RegexForEmail\RegexForEmail\bin\Debug\netcoreapp3.1\RegexForEmail.exe
+C:\Users\saiku\source\repos\RegexForEmail\RegexForEmail\bin\Debug\netcoreapp3.1\RegexForEmail.deps.json
+C:\Users\saiku\source\repos\RegexForEmail\RegexForEmail\bin\Debug\netcoreapp3.1\RegexForEmail.runtimeconfig.json
+C:\Users\saiku\source\repos\RegexForEmail\RegexForEmail\bin\Debug\netcoreapp3.1\RegexForEmail.runtimeconfig.dev.json
+C:\Users\saiku\source\repos\RegexForEmail\RegexForEmail\bin\Debug\netcoreapp3.1\RegexForEmail.dll
+C:\Users\saiku\source\repos\RegexForEmail\RegexForEmail\bin\Debug\netcoreapp3.1\RegexForEmail.pdb
+C:\Users\saiku\source\repos\RegexForEmail\RegexForEmail\obj\Debug\netcoreapp3.1\RegexForEmail.csprojAssemblyReference.cache
+C:\Users\saiku\source\repos\RegexForEmail\RegexForEmail\obj\Debug\netcoreapp3.1\RegexForEmail.AssemblyInfoInputs.cache
+C:\Users\saiku\source\repos\RegexForEmail\RegexForEmail\obj\Debug\netcoreapp3.1\RegexForEmail.AssemblyInfo.cs
+C:\Users\saiku\source\repos\RegexForEmail\RegexForEmail\obj\Debug\netcoreapp3.1\RegexForEmail.csproj.CoreCompileInputs.cache
+C:\Users\saiku\source\repos\RegexForEmail\RegexForEmail\obj\Debug\netcoreapp3.1\RegexForEmail.dll
+C:\Users\saiku\source\repos\RegexForEmail\RegexForEmail\obj\Debug\netcoreapp3.1\RegexForEmail.pdb
+C:\Users\saiku\source\repos\RegexForEmail\RegexForEmail\obj\Debug\netcoreapp3.1\RegexForEmail.genruntimeconfig.cache
