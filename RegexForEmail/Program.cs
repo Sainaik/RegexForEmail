@@ -13,9 +13,9 @@ namespace RegexForEmail
             //Pattern For Mandatory 2st part --->  @[a-z0-9]+
             //Pattern For Mandatory 3st part --->  \.[a-z]{2,3}
             //Pattern For optional 1st part  --->  ([-+*.]?[0-9a-z])*
-           
+            //Pattern For optional 2st part  --->  (\.?[a-z]{2})*
 
-            String pattern = @"^[a-z]+([-+*.]?[0-9a-z])*@[a-z0-9]+\.[a-z]{2,3}$";
+            String pattern = @"^[a-z]+([-+*.]?[0-9a-z])*@[a-z0-9]+\.[a-z]{2,3}(\.?[a-z]{2})*$";
 
             Regex r = new Regex(pattern);
 
