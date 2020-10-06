@@ -10,7 +10,7 @@ namespace RegexForEmail
             Console.WriteLine("Hello!! Welcome to Pattern Matching Problem for Email");
 
             //Mandatory 1st part
-            String pattern = @"^[a-z]+([-+*.]?[0-9a-z])";
+            String pattern = @"^[a-z]+$";
 
             Regex r = new Regex(pattern);
 
