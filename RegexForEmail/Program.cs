@@ -10,11 +10,11 @@ namespace RegexForEmail
             Console.WriteLine("Hello!! Welcome to Pattern Matching Problem for Email");
 
             //Mandatory 1st part
-            String pattern = @"^[a-z]+@[a-z0-9].+\(\.?[a-z]{2,}){1,2}$";
+            String pattern = @"^[a-z]+([-+.]?[0-9a-z])*@[a-z0-9]+\.(\.?[a-z]{2,}){1,2}$";
 
             Regex r = new Regex(pattern);
 
-            Console.WriteLine("Enter the 1st and 2nd mandatory Email parts and @ in between");
+            Console.WriteLine("Enter the 1st, 2nd, 3rd Mandatory and Optional Email parts and @ in between");
 
             String email = Console.ReadLine();
 
@@ -23,7 +23,7 @@ namespace RegexForEmail
                 Console.WriteLine("1st Mandatory part is Invalid of Email Address: " + email+"\nEnter again: ");
                 email = Console.ReadLine();
             }
-            Console.WriteLine(email + " 1st & 2nd Mandatory parts are valid.");
+            Console.WriteLine(email + " 1st, 2nd, 3rd Mandatory and Optional parts are valid.");
 
         }
     }
