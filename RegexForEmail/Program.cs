@@ -9,31 +9,21 @@ namespace RegexForEmail
         {
             Console.WriteLine("Hello!! Welcome to Pattern Matching Problem for Email");
 
-
-            //String Pattern = "^(abc.)[a-z0-9]*(@bridgelabz.co.)[a-z]+$";
-            // pattern = @"^([a-z][a-z0-9.+_-]*@([a-z0-9]([a-z0-9-]*[a-z0-9])?\.)+[a-z0-9]([a-z0-9-]*[a-z0-9])?)$";
-            // [a-z]+[-+*.]?[0-9a-z]*@[a-z0-9]+\.(\.?[a-z]{2,}){1,2}
-
-            //String pattern = @"^[a-z]+[-+*.]?[0-9a-z]*@[a-z0-9]+\.(\.?[a-z]{2,}){1,2}$";
-
-            String pattern = @"^[a-z]+([-+*.]?[0-9a-z])*@[a-z0-9]+\.(\.?[a-z]{2,}){1,2}$";
+            //Mandatory 1st part
+            String pattern = @"^[a-z]+([-+*.]?[0-9a-z])";
 
             Regex r = new Regex(pattern);
 
-            Console.WriteLine("Enter the Email");
+            Console.WriteLine("Enter the 1st mandatory Email part");
 
             String email = Console.ReadLine();
 
-            if (r.IsMatch(email))
+            while(!r.IsMatch(email))
             {
-                Console.WriteLine("Valid Email Address");
-
+                Console.WriteLine("1st Mandatory part is Invalid of Email Address: " + email+"\nEnter again: ");
+                email = Console.ReadLine();
             }
-            else
-            {
-                Console.WriteLine("Invalid Email Address");
-
-            }
+            Console.WriteLine(email + " 1st Mandatory part is valid.");
 
         }
     }
